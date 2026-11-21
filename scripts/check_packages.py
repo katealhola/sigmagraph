@@ -16,7 +16,9 @@ with zipfile.ZipFile(wheels[0]) as z:
     assert b'License-Expression: GPL-3.0-or-later' in metadata
 with tarfile.open(sources[0]) as t:
     names=t.getnames()
-    for suffix in ('/LICENSE','/build.py','/scripts/package_release.py','/tools/usbi/usb_transport.py','/.github/workflows/build.yml','/examples/stereo-crossover.sgproj'):
+    prefix=names[0].split('/')[0]
+    assert prefix+'/build.py' not in names,'Root build.py would shadow the Python build frontend.'
+    for suffix in ('/LICENSE','/scripts/build_app.py','/scripts/package_release.py','/tools/usbi/usb_transport.py','/.github/workflows/build.yml','/examples/stereo-crossover.sgproj'):
         assert any(n.endswith(suffix) for n in names),suffix
 with (dist/'SHA256SUMS.txt').open('w') as sums:
     for p in sorted(wheels+sources):

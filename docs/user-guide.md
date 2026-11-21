@@ -95,7 +95,7 @@ Build on the target OS and architecture:
 
 ```sh
 python -m pip install -r requirements-build.txt
-python build.py --output dist
+python scripts/build_app.py --output dist
 ```
 
 macOS produces `dist/SigmaGraph.app`; Linux produces `dist/SigmaGraph/SigmaGraph` with supporting files in that directory. Use an Intel Python/Qt installation for Intel Mac builds. The build includes the catalog JSON and native document associations. See the official [Qt installation](https://doc.qt.io/qtforpython-6/gettingstarted.html) and [deployment](https://doc.qt.io/qtforpython-6/deployment/index.html) documentation.

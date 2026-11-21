@@ -64,7 +64,7 @@ jobs:
       - name: Run portable tests
         run: python scripts/run_tests.py
       - name: Build standalone application
-        run: python build.py --output dist
+        run: python scripts/build_app.py --output dist
       - name: Smoke-test packaged macOS GUI
         if: runner.os == 'macOS'
         run: dist/SigmaGraph.app/Contents/MacOS/SigmaGraph --smoke-test

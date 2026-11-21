@@ -82,7 +82,7 @@ LICENSE                   GPLv3 text; project uses GPL-3.0-or-later
 ```sh
 python -m pip install -e '.[build]'
 python scripts/run_tests.py
-python build.py --output dist
+python scripts/build_app.py --output dist
 python scripts/package_release.py
 ```
 

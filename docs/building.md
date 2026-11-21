@@ -7,7 +7,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e '.[build]'
 python scripts/run_tests.py
-python build.py --output dist
+python scripts/build_app.py --output dist
 ```
 
 On Debian/Ubuntu install the libraries needed by Qt and PyInstaller:
