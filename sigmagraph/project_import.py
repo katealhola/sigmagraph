@@ -154,4 +154,3 @@ def project_summary(g):
                       for i in range(m.get('layercount',0))],
             'hardware':hardware, 'cells':cells, 'algorithms':algs, 'links':links, 'ui_data':ui,
             'lowered_graph':lower_graph(algs,links)}
-
