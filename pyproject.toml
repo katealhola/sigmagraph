@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sigmagraph"
+dynamic = ["version"]
+description = "Native SigmaDSP graph editor and independent ADAU1701 compiler"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE", "LICENSES/*.txt", "THIRD_PARTY_NOTICES.md"]
+authors = [{name = "Kate Alhola"}]
+dependencies = ["PySide6-Essentials==6.12.0"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: X11 Applications :: Qt",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Programming Language :: Python :: 3",
+  "Topic :: Multimedia :: Sound/Audio",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller==6.22.3", "build>=1.2,<2"]
+research = ["dnfile==0.18.0", "dncil==1.0.2", "pefile==2024.8.26"]
+
+[project.scripts]
+sigmagraph = "sigmagraph.app:main"
+sigmagraph-compile = "sigmagraph.compiler:main"
+
+[project.urls]
+Homepage = "https://github.com/katealhola/sigmagraph"
+Repository = "https://github.com/katealhola/sigmagraph"
+Issues = "https://github.com/katealhola/sigmagraph/issues"
+
+[tool.setuptools.dynamic]
+version = {attr = "sigmagraph.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["sigmagraph*"]
+
+[tool.setuptools.package-data]
+sigmagraph = ["data/*.json"]

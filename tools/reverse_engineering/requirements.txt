@@ -1,0 +1,5 @@
+# Only needed for static .NET assembly inspection/string recovery.
+# Project parsing, assembly, coefficient generation, and tests use Python stdlib.
+dnfile==0.18.0
+dncil==1.0.2
+pefile==2024.8.26

@@ -1,0 +1,1628 @@
+{
+  "ADICtrls.EQ1940Dual": {
+    "properties": {
+      "Count": -1,
+      "NumberofControls": 6,
+      "enable": true
+    },
+    "ui": {
+      "S0.R1.Boost": 0.0,
+      "S0.R0.Slope": 1.0,
+      "S0.R0.Frequency`lock": false,
+      "S0.R2.FilterEnable": true,
+      "S0.R4.ShelvingType": 0,
+      "S0.R5.ShelvingType": 1,
+      "S0.R4.Boost`res": 20,
+      "S0.R5.Frequency": 8000.0,
+      "S0.R3.Boost`min": -10.0,
+      "S0.R0.Frequency": 250.0,
+      "S0.R3.Position": 50,
+      "S0.R3.Slope`res": 20,
+      "S0.R2.Type": 0,
+      "S0.R2.Boost`min": -10.0,
+      "S0.R2.Gain": 0.0,
+      "S0.R0.Boost`min": -10.0,
+      "S0.R4.Type": 0,
+      "S0.R3.Type": 0,
+      "S0.R4.Boost`min": -10.0,
+      "S0.R1.Boost`min": -10.0,
+      "S0.R5.Boost`min": -10.0,
+      "S0.R1.Slope": 1.0,
+      "S0.R2.Frequency1": 1000.0,
+      "S0.R3.Gain": 0.0,
+      "S0.R0.Slope`res": 20,
+      "S0.R5.Q": 1.41,
+      "S0.R4.Q": 1.41,
+      "S0.R1.Slope`res": 20,
+      "S0.R1.Q": 1.41,
+      "S0.R0.Q": 1.41,
+      "S0.R3.Q": 1.41,
+      "S0.R2.Q": 1.41,
+      "S0.R5.Frequency1": 8000.0,
+      "S0.R3.Frequency1": 2000.0,
+      "S0.R0.Frequency1": 250.0,
+      "S0.R0.FilterEnable": true,
+      "S0.R0.Type": 0,
+      "S0.R3.Boost`max": 10.0,
+      "S0.R0.Gain": 0.0,
+      "S0.R5.FilterEnable": true,
+      "S0.R0.Boost`max": 10.0,
+      "S0.R4.Boost`max": 10.0,
+      "S0.R5.Boost`max": 10.0,
+      "S0.R5.Slope`res": 20,
+      "S0.R3.FilterEnable": true,
+      "S0.R1.Type": 0,
+      "S0.R2.Slope`res": 20,
+      "S0.R2.Position": 50,
+      "S0.R4.Frequency": 4000.0,
+      "S0.R2.Frequency`lock": false,
+      "S0.R4.Slope": 1.0,
+      "S0.R4.Slope`res": 20,
+      "S0.R5.Type": 1,
+      "S0.R1.Gain": 0.0,
+      "S0.R3.Frequency`lock": false,
+      "S0.R2.ShelvingType": 0,
+      "S0.R1.FilterEnable": true,
+      "S0.R1.Frequency`lock": false,
+      "S0.R1.ShelvingType": 0,
+      "S0.R4.Position": 50,
+      "S0.R3.Boost`res": 20,
+      "S0.R1.Frequency": 500.0,
+      "S0.R2.Boost`max": 10.0,
+      "S0.R5.Slope": 1.0,
+      "S0.R3.ShelvingType": 0,
+      "S0.R4.Frequency1": 4000.0,
+      "S0.R2.Boost": 0.0,
+      "S0.R4.Frequency`lock": false,
+      "S0.R0.Boost`res": 20,
+      "S0.R0.ShelvingType": 0,
+      "S0.R3.Boost": 0.0,
+      "S0.R1.Boost`res": 20,
+      "S0.R5.Frequency`lock": false,
+      "S0.R4.Boost": 0.0,
+      "S0.R5.Boost`res": 20,
+      "S0.R2.Slope": 1.0,
+      "S0.R1.Frequency1": 500.0,
+      "S0.R0.Position": 50,
+      "S0.R4.Gain": 0.0,
+      "S0.R0.Boost": 0.0,
+      "S0.R3.Slope": 1.0,
+      "S0.R3.Frequency": 2000.0,
+      "S0.R1.Position": 50,
+      "S0.R5.Boost": 0.0,
+      "S0.R4.FilterEnable": true,
+      "S0.R2.Boost`res": 20,
+      "S0.R1.Boost`max": 10.0,
+      "S0.R5.Gain": 0.0,
+      "S0.R5.Position": 50,
+      "S0.R2.Frequency": 1000.0
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 6
+  },
+  "ADICtrls.EQ1940Single": {
+    "properties": {
+      "Count": -1,
+      "NumberofControls": 3,
+      "enable": true
+    },
+    "ui": {
+      "S0.R1.Position": 50,
+      "S0.R0.FilterEnable": true,
+      "S0.R0.Gain": 0.0,
+      "S0.R1.Q": 1.41,
+      "S0.R2.Slope": 1.0,
+      "S0.R0.Frequency`lock": false,
+      "S0.R0.Boost": 0.0,
+      "S0.R1.Frequency`lock": false,
+      "S0.R2.FilterEnable": true,
+      "S0.R1.Boost`min": -10.0,
+      "S0.R0.Q": 1.41,
+      "S0.R1.Slope`res": 20,
+      "S0.R0.Slope": 1.0,
+      "S0.R0.Boost`min": -10.0,
+      "S0.R1.Frequency": 63.0,
+      "S0.R0.Type": 1,
+      "S0.R2.Boost`max": 10.0,
+      "S0.R1.Frequency1": 63.0,
+      "S0.R0.Slope`res": 20,
+      "S0.R2.Boost`res": 20,
+      "S0.R1.Boost": 0.0,
+      "S0.R1.ShelvingType": 0,
+      "S0.R2.Type": 0,
+      "S0.R0.ShelvingType": 0,
+      "S0.R0.Frequency1": 200.0,
+      "S0.R2.Position": 50,
+      "S0.R1.Slope": 1.0,
+      "S0.R1.Type": 0,
+      "S0.R0.Frequency": 200.0,
+      "S0.R2.Q": 1.41,
+      "S0.R2.Frequency1": 125.0,
+      "S0.R1.Boost`max": 10.0,
+      "S0.R0.Boost`max": 10.0,
+      "S0.R2.Frequency": 125.0,
+      "S0.R1.Gain": 0.0,
+      "S0.R2.Gain": 0.0,
+      "S0.R2.Slope`res": 20,
+      "S0.R1.FilterEnable": true,
+      "S0.R1.Boost`res": 20,
+      "S0.R0.Boost`res": 20,
+      "S0.R2.Boost": 0.0,
+      "S0.R2.Frequency`lock": false,
+      "S0.R2.ShelvingType": 0,
+      "S0.R0.Position": 10,
+      "S0.R2.Boost`min": -10.0
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 3
+  },
+  "ADICtrls.ICSigma100In": {
+    "properties": {
+      "NumberofControls": 10,
+      "enable": true,
+      "ins": [
+        0,
+        1
+      ]
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 10
+  },
+  "ADICtrls.ICSigma100Out": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "Item": "DAC2",
+      "selectedchannel": "DAC2"
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.SingleCtrlMixer1940": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.TwoChannelSingleDetectAlgFix": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "gain": 0.0,
+      "decay": 10.0,
+      "hold": 0.0,
+      "timeconstant": 120.0,
+      "softknee": false,
+      "breakpoints": [
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -90.0,
+          "y": -90.0
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -72.0,
+          "y": -72.0
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -45.0,
+          "y": -45.0
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -8.889796257019043,
+          "y": -8.37190055847168
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": 6.0,
+          "y": -5.421487808227539
+        }
+      ]
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.MonoAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "gain": 0.0,
+      "decay": 10.0,
+      "hold": 0.0,
+      "timeconstant": 120.0,
+      "softknee": false,
+      "breakpoints": [
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -90.0,
+          "y": -90.0
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -72.0,
+          "y": -72.0
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -45.0,
+          "y": -45.0
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": -9.673469543457031,
+          "y": -10.830578804016113
+        },
+        {
+          "$type": "System.Drawing.PointF",
+          "x": 6.0,
+          "y": -6.896694183349609
+        }
+      ]
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.SWGain1940DBAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "gain": 0.0,
+      "min": -80.0,
+      "max": 0.0,
+      "res": 100,
+      "step": 12.0
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Basic_Stereo_InOut.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.GPIAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "Item": "GPIO_2",
+      "selectedchannel": "GPIO_2"
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      }
+    ],
+    "sample": "Volume_DoublePushButton_170x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.ExtIntInAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "Item": "INTFACE_0",
+      "Default": 0,
+      "selectedchannel": "INTFACE_0"
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 0
+      }
+    ],
+    "sample": "Volume_DoublePushButton_170x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.RegReadIntOutAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "Item": "INTFACE_0",
+      "selectedchannel": "INTFACE_0"
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 0
+      }
+    ],
+    "sample": "Volume_DoublePushButton_170x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.stereomux1940ns": {
+    "properties": {
+      "NumberofControls": 2,
+      "enable": true,
+      "checked": 1
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Volume_DoublePushButton_170x.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.PushButtonVolAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "checked": true,
+      "holdtime": 500.0,
+      "repeattime": 250.0,
+      "values": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "step": 12.0
+    },
+    "ui": {
+      "S0.R0.OnOff": true,
+      "S0.R0.Hold": 500.0,
+      "S0.R0.Repeat": 250.0,
+      "S0.R0.Coefficients": [
+        0.0,
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "S0.R0.Step": 12.0
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 0
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 0
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Volume_DoublePushButton_170x.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.ToggleOneAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "idx0": 0,
+      "CtrlNumber": 1
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 0
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 0
+      }
+    ],
+    "sample": "IndexMuxSelect_SinglePushButton_170x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.DCinputmux_stereo_Alg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "IndexMuxSelect_SinglePushButton_170x.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.RotaryVolAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "debouncetime": 20.0,
+      "values": [
+        0.0,
+        0.0313,
+        0.0625,
+        0.0938,
+        0.125,
+        0.1563,
+        0.1875,
+        0.2188,
+        0.25,
+        0.2813,
+        0.3125,
+        0.3438,
+        0.375,
+        0.4063,
+        0.4375,
+        0.4688,
+        0.5,
+        0.5313,
+        0.5625,
+        0.5938,
+        0.625,
+        0.6563,
+        0.6875,
+        0.7188,
+        0.75,
+        0.7813,
+        0.8125,
+        0.8438,
+        0.875,
+        0.9063,
+        0.9375,
+        0.9688,
+        1.0
+      ],
+      "step": 12.0
+    },
+    "ui": {
+      "S0.R0.Value": 20.0,
+      "S0.R0.Coefficients": [
+        0.0,
+        0.0313,
+        0.0625,
+        0.0938,
+        0.125,
+        0.1563,
+        0.1875,
+        0.2188,
+        0.25,
+        0.2813,
+        0.3125,
+        0.3438,
+        0.375,
+        0.4063,
+        0.4375,
+        0.4688,
+        0.5,
+        0.5313,
+        0.5625,
+        0.5938,
+        0.625,
+        0.6563,
+        0.6875,
+        0.7188,
+        0.75,
+        0.7813,
+        0.8125,
+        0.8438,
+        0.875,
+        0.9063,
+        0.9375,
+        0.9688,
+        1.0
+      ],
+      "S0.R0.Step": 12.0
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 0
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 0
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Volume_RotEnc_170x.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.RegReadAlgADCIn": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "Item": "AUX_ADC_3",
+      "selectedchannel": "AUX_ADC_3"
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      }
+    ],
+    "sample": "Volume_AuxADC_170x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.ExtSWGainDB": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "step": 12.0
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Volume_AuxADC_170x.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.ParamToneIndexwStepAlgFix": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "type": 2,
+      "steps": 5,
+      "Q": 0.7071,
+      "MinBoost": -10.0,
+      "MaxBoost": 10.0,
+      "Gain": 0.0,
+      "freqmax": 5000.0,
+      "slew": 12.0,
+      "filtertype": 1,
+      "freqmin": 80.0,
+      "ripple": 0.5,
+      "version": 2
+    },
+    "ui": {
+      "S0.R0.Slew": 12.0,
+      "S0.R0.Type": 2,
+      "S0.R0.Boost`max": 10.0,
+      "S0.R0.Ripple": 0.5,
+      "S0.R0.FrequencyLow": 80.0,
+      "S0.R0.Gain": 0.0,
+      "S0.R0.Steps": 5.0,
+      "S0.R0.Boost`min": -10.0,
+      "S0.R0.FrequencyHigh": 5000.0,
+      "S0.R0.Q": 0.7071,
+      "S0.R0.FilterType": 1
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "AuxADC_FilterSelect.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.MultAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      }
+    ],
+    "sample": "AuxADC_FilterSelect.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.DCInpAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "textvalue": 4.0,
+      "int": 0.0
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      }
+    ],
+    "sample": "AuxADC_FilterSelect.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.ToggleCountAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "max": 5.0
+    },
+    "ui": {
+      "S0.R0.Value": 5.0
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 0
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 0
+      }
+    ],
+    "sample": "IndexLPFSelect_SinglePushButton_170x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.Basic_DSP.AdderAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "DSC_SignalFlow.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.Gain1940AlgNS": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "gain": -12.0,
+      "min": -12.0,
+      "max": 0.0,
+      "res": 6
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "DSC_SignalFlow.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.EQ1940Invert": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "checked": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "DSC_SignalFlow.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.FistOrderSingle": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "Count": 1,
+      "firstorder_type0": 1,
+      "firstorder_freq0": 20.0,
+      "firstorder_gain0": 4.0
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "DSC_SignalFlow.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.DCinputmuxAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "DSC_SignalFlow.dspproj",
+    "repetitions": 3
+  },
+  "ADICtrls.Basic_DSP.ValueCrossAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "textvalue": 0.0
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      }
+    ],
+    "sample": "PulseCounter_176x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.sin_lookupAlg1940": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "freq": 3.0,
+      "ison": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "PulseCounter_176x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.Counters.PulseCount": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      }
+    ],
+    "sample": "PulseCounter_176x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.SwitchAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {
+      "S0.R0.OnOff": false
+    },
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "PulseCounter_176x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.StMuxSwSlew": {
+    "properties": {
+      "NumberofControls": 2,
+      "enable": true,
+      "checked": 1
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "Volume_DoublePushButton_ADAU1761.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.FeedbackAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "IIRFilterBlocks_144x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.MultCtrlDelGrowAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "CtrlMax0": 1,
+      "Value0": 1.0,
+      "CtrlNumber": 1
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "IIRFilterBlocks_144x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.Basic_DSP.SubAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "IIRFilterBlocks_144x.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.WhiteNAlgNew": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {
+      "S0.R0.OnOff": true
+    },
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "IIRFilterBlocks_144x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.EQ1940SingleS": {
+    "properties": {
+      "Count": -1,
+      "version": 0.0,
+      "NumberofControls": 1,
+      "enable": true
+    },
+    "ui": {
+      "S0.R0.FilterEnable": true,
+      "S0.R0.Gain": 0.0,
+      "S0.R0.Boost1`max": 10.0,
+      "S0.R0.Boost2`res": 20,
+      "S0.R0.Active1": true,
+      "S0.R0.Coefficients.A2": 0.911523461341858,
+      "S0.R0.Active2": true,
+      "S0.R0.Boost3`res": 20,
+      "S0.R0.Q": 1.41,
+      "S0.R0.Slope": 1.0,
+      "S0.R0.Slope`res": 20,
+      "S0.R0.Type": 5,
+      "S0.R0.LowPass1": true,
+      "S0.R0.Frequency2": 1000.0,
+      "S0.R0.GeneralType": 0,
+      "S0.R0.ChebyshevType": 0,
+      "S0.R0.Frequency`lock": false,
+      "S0.R0.BandPassType": 0,
+      "S0.R0.Boost1": 6.0,
+      "S0.R0.ShelvingType": 0,
+      "S0.R0.Boost2": 0.0,
+      "S0.R0.Frequency1": 1050.0,
+      "S0.R0.Boost1`min": -10.0,
+      "S0.R0.Boost2`max": 10.0,
+      "S0.R0.Boost3`min": -10.0,
+      "S0.R0.Ripple": 0.1,
+      "S0.R0.LowPass2": false,
+      "S0.R0.Coefficients.A1": -1.895170092583,
+      "S0.R0.Coefficients.B2": 0.00408828258514404,
+      "S0.R0.Coefficients.B1": 0.00817668437957764,
+      "S0.R0.Coefficients.B0": 0.00408828258514404,
+      "S0.R0.Boost3": 0.0,
+      "S0.R0.Boost3`max": 10.0,
+      "S0.R0.Boost2`min": -10.0,
+      "S0.R0.Boost1`res": 20
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "IIRFilterBlocks_144x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.XFadeAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "step": 12.0
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 1
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "StereoSourceSelect_SinglePushButton_144x.dspproj",
+    "repetitions": 2
+  },
+  "ADICtrls.TriAlg": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "freq": 275.0,
+      "ison": true
+    },
+    "ui": {},
+    "ports": [
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 1
+      }
+    ],
+    "sample": "StereoSourceSelect_SinglePushButton_144x.dspproj",
+    "repetitions": 1
+  },
+  "ADICtrls.ToggleCountAlgG3": {
+    "properties": {
+      "NumberofControls": 1,
+      "enable": true,
+      "max": 5.0
+    },
+    "ui": {
+      "S0.R0.Value": 5.0
+    },
+    "ports": [
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "In",
+        "direction": "in",
+        "signal": 0,
+        "data": 0
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 4
+      },
+      {
+        "label": "Out",
+        "direction": "out",
+        "signal": 0,
+        "data": 0
+      }
+    ],
+    "sample": "IndexLPFSelect_SinglePushButton_144x.dspproj",
+    "repetitions": 1
+  }
+}

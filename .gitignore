@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.build/
+build/
+dist/
+artifacts/
+*.egg-info/
+.pytest_cache/
+.DS_Store
+.env
+.env.*
+# Keep local project corpora, firmware and device backups out of Git.
+private-reference/
+private-analysis/
+private-examples/
+local/
+*.spt
+*.dll
+*.exe
+*.bin
+*.zip
+*.tar.gz

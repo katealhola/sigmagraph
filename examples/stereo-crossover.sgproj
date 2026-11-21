@@ -1,0 +1,731 @@
+{
+  "format": "SigmaGraph project",
+  "schema": 1,
+  "project": {
+    "name": "Stereo crossover",
+    "source_path": null,
+    "version": [],
+    "target": "ADAU1701",
+    "nodes": {
+      "fd5080ac880a473fb553afd2e5a9c60e": {
+        "id": "fd5080ac880a473fb553afd2e5a9c60e",
+        "label": "Audio input",
+        "kind": "input",
+        "family": "Audio input",
+        "algorithm": "fd5080ac880a473fb553afd2e5a9c60e",
+        "fs": 48000,
+        "x": 50,
+        "y": 401.79999999999995,
+        "ports": [
+          {
+            "id": "193cfab8afd5430dab5e8a2ed90b5cb3",
+            "label": "ADC 0",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "7f5e1cd7a6fb4984aedc1df20fbda217",
+            "label": "ADC 1",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "b05983cbbef245fcae6764ae7cc76588": {
+        "id": "b05983cbbef245fcae6764ae7cc76588",
+        "label": "Volume",
+        "kind": "gain",
+        "family": "Volume",
+        "algorithm": "b05983cbbef245fcae6764ae7cc76588",
+        "fs": 48000,
+        "x": 340,
+        "y": 401.79999999999995,
+        "ports": [
+          {
+            "id": "2cedb644dcf6457387ae59a5bd701354",
+            "label": "L",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "810f8bf0ac0248b7b6b22161cbeec882",
+            "label": "R",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "50c8ca7e19554dac9d1519b455d22d31",
+            "label": "L",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "d3106cd9a174469da2ca74d0b220f9b5",
+            "label": "R",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true,
+          "gain": 0.0,
+          "min": -80.0,
+          "max": 24.0,
+          "step": 12.0
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "ea1e42d2ce344740bdc5352119fa50ce": {
+        "id": "ea1e42d2ce344740bdc5352119fa50ce",
+        "label": "2-way crossover",
+        "kind": "crossover",
+        "family": "2-way crossover",
+        "algorithm": "ea1e42d2ce344740bdc5352119fa50ce",
+        "fs": 48000,
+        "x": 630,
+        "y": 180.6,
+        "ports": [
+          {
+            "id": "bd21fca0abad4ede9038991e37decc10",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "e9fe50b49aae4052b85b165c41d132e6",
+            "label": "Low",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "f5380fb553fc42ec9a77b3abb3a4195c",
+            "label": "High",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true
+        },
+        "ui": {
+          "S0.R0.Type1": 1,
+          "S0.R0.Type2": 1,
+          "S0.R0.Type3": 1,
+          "S0.R0.Type4": 0,
+          "S0.R0.FrequencyLow": 1000.0,
+          "S0.R0.FrequencyHigh": 1500.0,
+          "S0.R0.FrequencyMidLow": 250.0,
+          "S0.R0.FrequencyMidHigh": 3000.0,
+          "S0.R0.Gain1": 0.0,
+          "S0.R0.Gain2": 0.0,
+          "S0.R0.Gain3": 0.0,
+          "S0.R0.InvertLow": false,
+          "S0.R0.InvertHigh": false
+        },
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "4a0f9cb2e1fc4e8aaea802b62d83cfbd": {
+        "id": "4a0f9cb2e1fc4e8aaea802b62d83cfbd",
+        "label": "2-way crossover",
+        "kind": "crossover",
+        "family": "2-way crossover",
+        "algorithm": "4a0f9cb2e1fc4e8aaea802b62d83cfbd",
+        "fs": 48000,
+        "x": 630,
+        "y": 623.0,
+        "ports": [
+          {
+            "id": "cd611216273e4b109c5ebd4ffbeefb39",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "c6ac888a995f488c852b1a7dbd5f908e",
+            "label": "Low",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "723110238c77407a98da808ae0a9231d",
+            "label": "High",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true
+        },
+        "ui": {
+          "S0.R0.Type1": 1,
+          "S0.R0.Type2": 1,
+          "S0.R0.Type3": 1,
+          "S0.R0.Type4": 0,
+          "S0.R0.FrequencyLow": 1000.0,
+          "S0.R0.FrequencyHigh": 1500.0,
+          "S0.R0.FrequencyMidLow": 250.0,
+          "S0.R0.FrequencyMidHigh": 3000.0,
+          "S0.R0.Gain1": 0.0,
+          "S0.R0.Gain2": 0.0,
+          "S0.R0.Gain3": 0.0,
+          "S0.R0.InvertLow": false,
+          "S0.R0.InvertHigh": false
+        },
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "576eb0e8cf0e413fa98efd93d1a94082": {
+        "id": "576eb0e8cf0e413fa98efd93d1a94082",
+        "label": "Parametric EQ",
+        "kind": "peq",
+        "family": "Parametric EQ",
+        "algorithm": "576eb0e8cf0e413fa98efd93d1a94082",
+        "fs": 48000,
+        "x": 920,
+        "y": 70.0,
+        "ports": [
+          {
+            "id": "430f483c5ea54c6cbadd0e16ab2ec04b",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "ec2f5e571fe4422082622a66ff95bb29",
+            "label": "Out",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true
+        },
+        "ui": {
+          "S0.R0.Index": 2,
+          "S0.R0.Frequency10": 100.0,
+          "S0.R0.Q0": 1.0,
+          "S0.R0.Boost0": 0.0,
+          "S0.R0.Type0": 0,
+          "S0.R0.Bypass0": false,
+          "S0.R0.Frequency11": 1000.0,
+          "S0.R0.Q1": 1.0,
+          "S0.R0.Boost1": 0.0,
+          "S0.R0.Type1": 0,
+          "S0.R0.Bypass1": false,
+          "S0.R0.Frequency12": 6000.0,
+          "S0.R0.Q2": 1.0,
+          "S0.R0.Boost2": 0.0,
+          "S0.R0.Type2": 0,
+          "S0.R0.Bypass2": false
+        },
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "b1a2b34872514948ac67edabde66c7a1": {
+        "id": "b1a2b34872514948ac67edabde66c7a1",
+        "label": "Parametric EQ",
+        "kind": "peq",
+        "family": "Parametric EQ",
+        "algorithm": "b1a2b34872514948ac67edabde66c7a1",
+        "fs": 48000,
+        "x": 920,
+        "y": 310.0,
+        "ports": [
+          {
+            "id": "21c06aef5f344e55bb11e4d358baf6df",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "220b9acb740e4e2faaf2f57cd87dc37e",
+            "label": "Out",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true
+        },
+        "ui": {
+          "S0.R0.Index": 2,
+          "S0.R0.Frequency10": 100.0,
+          "S0.R0.Q0": 1.0,
+          "S0.R0.Boost0": 0.0,
+          "S0.R0.Type0": 0,
+          "S0.R0.Bypass0": false,
+          "S0.R0.Frequency11": 1000.0,
+          "S0.R0.Q1": 1.0,
+          "S0.R0.Boost1": 0.0,
+          "S0.R0.Type1": 0,
+          "S0.R0.Bypass1": false,
+          "S0.R0.Frequency12": 6000.0,
+          "S0.R0.Q2": 1.0,
+          "S0.R0.Boost2": 0.0,
+          "S0.R0.Type2": 0,
+          "S0.R0.Bypass2": false
+        },
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "88a2b0a906c74417a7449f75fe9af18a": {
+        "id": "88a2b0a906c74417a7449f75fe9af18a",
+        "label": "Parametric EQ",
+        "kind": "peq",
+        "family": "Parametric EQ",
+        "algorithm": "88a2b0a906c74417a7449f75fe9af18a",
+        "fs": 48000,
+        "x": 920,
+        "y": 550.0,
+        "ports": [
+          {
+            "id": "7f9bbb4bea4f4f9196d61e83d373de44",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "38deb42133fc41a898b280874816f59a",
+            "label": "Out",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true
+        },
+        "ui": {
+          "S0.R0.Index": 2,
+          "S0.R0.Frequency10": 100.0,
+          "S0.R0.Q0": 1.0,
+          "S0.R0.Boost0": 0.0,
+          "S0.R0.Type0": 0,
+          "S0.R0.Bypass0": false,
+          "S0.R0.Frequency11": 1000.0,
+          "S0.R0.Q1": 1.0,
+          "S0.R0.Boost1": 0.0,
+          "S0.R0.Type1": 0,
+          "S0.R0.Bypass1": false,
+          "S0.R0.Frequency12": 6000.0,
+          "S0.R0.Q2": 1.0,
+          "S0.R0.Boost2": 0.0,
+          "S0.R0.Type2": 0,
+          "S0.R0.Bypass2": false
+        },
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "f202644c496440f2b124dfe1ed1ecbd6": {
+        "id": "f202644c496440f2b124dfe1ed1ecbd6",
+        "label": "Parametric EQ",
+        "kind": "peq",
+        "family": "Parametric EQ",
+        "algorithm": "f202644c496440f2b124dfe1ed1ecbd6",
+        "fs": 48000,
+        "x": 920,
+        "y": 790.0,
+        "ports": [
+          {
+            "id": "db81469331de4f37bfde0a801997790b",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "0f3c5da72bfd4f98a6d2c23dae113db0",
+            "label": "Out",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true
+        },
+        "ui": {
+          "S0.R0.Index": 2,
+          "S0.R0.Frequency10": 100.0,
+          "S0.R0.Q0": 1.0,
+          "S0.R0.Boost0": 0.0,
+          "S0.R0.Type0": 0,
+          "S0.R0.Bypass0": false,
+          "S0.R0.Frequency11": 1000.0,
+          "S0.R0.Q1": 1.0,
+          "S0.R0.Boost1": 0.0,
+          "S0.R0.Type1": 0,
+          "S0.R0.Bypass1": false,
+          "S0.R0.Frequency12": 6000.0,
+          "S0.R0.Q2": 1.0,
+          "S0.R0.Boost2": 0.0,
+          "S0.R0.Type2": 0,
+          "S0.R0.Bypass2": false
+        },
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "02bc5562d01d4a6492dcf9c4f4233f6f": {
+        "id": "02bc5562d01d4a6492dcf9c4f4233f6f",
+        "label": "Delay",
+        "kind": "delay",
+        "family": "Delay",
+        "algorithm": "02bc5562d01d4a6492dcf9c4f4233f6f",
+        "fs": 48000,
+        "x": 1210,
+        "y": 70.0,
+        "ports": [
+          {
+            "id": "ee05a5a71b774760b4108a8b503c044e",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "f6c1d46b351e4ee7808b8afd6fc5cd3c",
+            "label": "Out",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true,
+          "Value0": 1.0,
+          "CtrlMax0": 2047,
+          "CtrlNumber": 1
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "197090e340ce4a06af43ca734dea772d": {
+        "id": "197090e340ce4a06af43ca734dea772d",
+        "label": "Delay",
+        "kind": "delay",
+        "family": "Delay",
+        "algorithm": "197090e340ce4a06af43ca734dea772d",
+        "fs": 48000,
+        "x": 1210,
+        "y": 512.4,
+        "ports": [
+          {
+            "id": "72020c9531e1455d90708ecf23212db5",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          },
+          {
+            "id": "bc45acfbb22c4eaab787142b06349bfb",
+            "label": "Out",
+            "direction": "out",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true,
+          "Value0": 1.0,
+          "CtrlMax0": 2047,
+          "CtrlNumber": 1
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "ac93781c1958468184c68da2329171f7": {
+        "id": "ac93781c1958468184c68da2329171f7",
+        "label": "Audio output",
+        "kind": "output",
+        "family": "Audio output",
+        "algorithm": "ac93781c1958468184c68da2329171f7",
+        "fs": 48000,
+        "x": 1500,
+        "y": 70.0,
+        "ports": [
+          {
+            "id": "dc2d906b1f6f462da756d9143120d09b",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true,
+          "selectedchannel": "DAC0"
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "f3dc0d72278f48c9b2e6fd5509fd461a": {
+        "id": "f3dc0d72278f48c9b2e6fd5509fd461a",
+        "label": "Audio output",
+        "kind": "output",
+        "family": "Audio output",
+        "algorithm": "f3dc0d72278f48c9b2e6fd5509fd461a",
+        "fs": 48000,
+        "x": 1500,
+        "y": 310.0,
+        "ports": [
+          {
+            "id": "c9f24a4d74c84198a8e313d1e980deae",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true,
+          "selectedchannel": "DAC1"
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "097175a798144d6e8734b160b11bb76b": {
+        "id": "097175a798144d6e8734b160b11bb76b",
+        "label": "Audio output",
+        "kind": "output",
+        "family": "Audio output",
+        "algorithm": "097175a798144d6e8734b160b11bb76b",
+        "fs": 48000,
+        "x": 1500,
+        "y": 550.0,
+        "ports": [
+          {
+            "id": "ced5554554004294a46f81009ef8f5bd",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true,
+          "selectedchannel": "DAC2"
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      },
+      "d7749d6cc8ab448382777b7e85011195": {
+        "id": "d7749d6cc8ab448382777b7e85011195",
+        "label": "Audio output",
+        "kind": "output",
+        "family": "Audio output",
+        "algorithm": "d7749d6cc8ab448382777b7e85011195",
+        "fs": 48000,
+        "x": 1500,
+        "y": 790.0,
+        "ports": [
+          {
+            "id": "bc2cd549917e49f483c48b484b20773c",
+            "label": "In",
+            "direction": "in",
+            "signal": 0,
+            "data": 1,
+            "source_name": ""
+          }
+        ],
+        "properties": {
+          "enable": true,
+          "selectedchannel": "DAC3"
+        },
+        "ui": {},
+        "source_cell": {},
+        "source_algorithm": {},
+        "catalog_id": "",
+        "symbol": ""
+      }
+    },
+    "connections": {
+      "7539e919f6154c048ff919b99bc07ad6": {
+        "id": "7539e919f6154c048ff919b99bc07ad6",
+        "source_node": "fd5080ac880a473fb553afd2e5a9c60e",
+        "source_port": "193cfab8afd5430dab5e8a2ed90b5cb3",
+        "target_node": "b05983cbbef245fcae6764ae7cc76588",
+        "target_port": "2cedb644dcf6457387ae59a5bd701354"
+      },
+      "cd6782fdc64a46cdaddb50290bac2285": {
+        "id": "cd6782fdc64a46cdaddb50290bac2285",
+        "source_node": "fd5080ac880a473fb553afd2e5a9c60e",
+        "source_port": "7f5e1cd7a6fb4984aedc1df20fbda217",
+        "target_node": "b05983cbbef245fcae6764ae7cc76588",
+        "target_port": "810f8bf0ac0248b7b6b22161cbeec882"
+      },
+      "4be77d47376b44b6989dd421384b9e93": {
+        "id": "4be77d47376b44b6989dd421384b9e93",
+        "source_node": "b05983cbbef245fcae6764ae7cc76588",
+        "source_port": "50c8ca7e19554dac9d1519b455d22d31",
+        "target_node": "ea1e42d2ce344740bdc5352119fa50ce",
+        "target_port": "bd21fca0abad4ede9038991e37decc10"
+      },
+      "74988e901761441c98ca1539091026df": {
+        "id": "74988e901761441c98ca1539091026df",
+        "source_node": "b05983cbbef245fcae6764ae7cc76588",
+        "source_port": "d3106cd9a174469da2ca74d0b220f9b5",
+        "target_node": "4a0f9cb2e1fc4e8aaea802b62d83cfbd",
+        "target_port": "cd611216273e4b109c5ebd4ffbeefb39"
+      },
+      "d1edfd9dee4740f398d44291bab14afe": {
+        "id": "d1edfd9dee4740f398d44291bab14afe",
+        "source_node": "ea1e42d2ce344740bdc5352119fa50ce",
+        "source_port": "e9fe50b49aae4052b85b165c41d132e6",
+        "target_node": "576eb0e8cf0e413fa98efd93d1a94082",
+        "target_port": "430f483c5ea54c6cbadd0e16ab2ec04b"
+      },
+      "62d8f6ca33fe4eb393a0094e0616b3ad": {
+        "id": "62d8f6ca33fe4eb393a0094e0616b3ad",
+        "source_node": "ea1e42d2ce344740bdc5352119fa50ce",
+        "source_port": "f5380fb553fc42ec9a77b3abb3a4195c",
+        "target_node": "b1a2b34872514948ac67edabde66c7a1",
+        "target_port": "21c06aef5f344e55bb11e4d358baf6df"
+      },
+      "8643c14a00c8432197c3cc9dcfb38373": {
+        "id": "8643c14a00c8432197c3cc9dcfb38373",
+        "source_node": "4a0f9cb2e1fc4e8aaea802b62d83cfbd",
+        "source_port": "c6ac888a995f488c852b1a7dbd5f908e",
+        "target_node": "88a2b0a906c74417a7449f75fe9af18a",
+        "target_port": "7f9bbb4bea4f4f9196d61e83d373de44"
+      },
+      "220cbc29040b4150ad46fa64bdaecf22": {
+        "id": "220cbc29040b4150ad46fa64bdaecf22",
+        "source_node": "4a0f9cb2e1fc4e8aaea802b62d83cfbd",
+        "source_port": "723110238c77407a98da808ae0a9231d",
+        "target_node": "f202644c496440f2b124dfe1ed1ecbd6",
+        "target_port": "db81469331de4f37bfde0a801997790b"
+      },
+      "fc485a326ec14df8bb72b7a2ef9c5aa0": {
+        "id": "fc485a326ec14df8bb72b7a2ef9c5aa0",
+        "source_node": "576eb0e8cf0e413fa98efd93d1a94082",
+        "source_port": "ec2f5e571fe4422082622a66ff95bb29",
+        "target_node": "02bc5562d01d4a6492dcf9c4f4233f6f",
+        "target_port": "ee05a5a71b774760b4108a8b503c044e"
+      },
+      "248b0603d56248f0a101897752325077": {
+        "id": "248b0603d56248f0a101897752325077",
+        "source_node": "88a2b0a906c74417a7449f75fe9af18a",
+        "source_port": "38deb42133fc41a898b280874816f59a",
+        "target_node": "197090e340ce4a06af43ca734dea772d",
+        "target_port": "72020c9531e1455d90708ecf23212db5"
+      },
+      "d4b4b53563684f1fb1090b14776569ba": {
+        "id": "d4b4b53563684f1fb1090b14776569ba",
+        "source_node": "02bc5562d01d4a6492dcf9c4f4233f6f",
+        "source_port": "f6c1d46b351e4ee7808b8afd6fc5cd3c",
+        "target_node": "ac93781c1958468184c68da2329171f7",
+        "target_port": "dc2d906b1f6f462da756d9143120d09b"
+      },
+      "686cf13c919d46c5a5f1f07aac9dcfe3": {
+        "id": "686cf13c919d46c5a5f1f07aac9dcfe3",
+        "source_node": "b1a2b34872514948ac67edabde66c7a1",
+        "source_port": "220b9acb740e4e2faaf2f57cd87dc37e",
+        "target_node": "f3dc0d72278f48c9b2e6fd5509fd461a",
+        "target_port": "c9f24a4d74c84198a8e313d1e980deae"
+      },
+      "828609f3eadc4deb9ebc9f0f66e0f1f9": {
+        "id": "828609f3eadc4deb9ebc9f0f66e0f1f9",
+        "source_node": "197090e340ce4a06af43ca734dea772d",
+        "source_port": "bc45acfbb22c4eaab787142b06349bfb",
+        "target_node": "097175a798144d6e8734b160b11bb76b",
+        "target_port": "ced5554554004294a46f81009ef8f5bd"
+      },
+      "ce3171bc181b41bb9c01302440e8feb6": {
+        "id": "ce3171bc181b41bb9c01302440e8feb6",
+        "source_node": "f202644c496440f2b124dfe1ed1ecbd6",
+        "source_port": "0f3c5da72bfd4f98a6d2c23dae113db0",
+        "target_node": "d7749d6cc8ab448382777b7e85011195",
+        "target_port": "bc2cd549917e49f483c48b484b20773c"
+      }
+    },
+    "original_graph": null,
+    "normalized_source": null,
+    "notes": [
+      "Example signal flow. Open a .dspproj to edit your own design."
+    ]
+  }
+}
