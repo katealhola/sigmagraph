@@ -1,7 +1,7 @@
 include LICENSE THIRD_PARTY_NOTICES.md README.md CONTRIBUTING.md CHANGELOG.md
 include run.py requirements*.txt
 recursive-include LICENSES *.txt
-recursive-include docs *.md
+recursive-include docs *.md *.png
 recursive-include examples *.sgproj
 recursive-include tests *.py
 recursive-include scripts *.py

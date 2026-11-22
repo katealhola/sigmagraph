@@ -1,5 +1,7 @@
 # SigmaGraph
 
+![SigmaGraph showing a stereo DSP graph, block library and parametric EQ inspector](docs/images/sigmagraph-screenshot.png)
+
 [![Build](https://github.com/katealhola/sigmagraph/actions/workflows/build.yml/badge.svg)](https://github.com/katealhola/sigmagraph/actions/workflows/build.yml)
 [![License: GPL v3 or later](https://img.shields.io/badge/license-GPLv3%2B-blue.svg)](LICENSE)
 
